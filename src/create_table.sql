@@ -1,0 +1,9 @@
+CREATE TABLE suicidestats (
+	country TEXT NOT NULL,
+	year INTEGER NOT NULL,
+	sex TEXT NOT NULL,
+	age TEXT NOT NULL,
+	suicides_no INTEGER,
+	population INTEGER,
+	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL
+)
